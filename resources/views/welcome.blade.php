@@ -82,6 +82,8 @@
             <div class="content">
                 <div class="title m-b-md">
                     Hello Laravel
+                    <h4><?= isset($greeting) ? "{$greeting} " : 'Hello ';?></h4>
+                    <h4><? "{$name}"; ?></h4>
                 </div>
 
                 <div class="links">
